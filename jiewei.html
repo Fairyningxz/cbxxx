@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>曰茶去</title>
+		<style type="text/css">
+			body{
+				width:100%;
+				height:100%;
+				background-image: url("img/IMG_0607.PNG");
+				background-repeat:no-repeat;
+				background-position: center 0;
+                background-size: cover;
+			}
+		    .botton{
+				width:5%;
+				height:2%;
+				position:absolute;
+			    left:60%;
+			    top:70%;
+			}
+			.renwu{
+				position:absolute;
+				top:5%;
+				animation: renwu 2s linear 1;
+			}
+			@keyframes renwu{
+				0%{
+					transform: translateX(-30%);
+				}
+				100%{
+					transform: translateX(3%);
+				}
+			}
+			.wzk{
+				position: absolute;
+				top:20%;
+				left:50%;
+			}
+			.wz{
+				position: absolute;
+				top:20%;
+				left:50%;
+				animation: wenz 2s linear 1;
+			}
+			@keyframes wenz{
+				0%{
+					opacity: 0;
+				}
+				20%{
+					opacity: 0.3;
+				}
+				40%{
+					opacity: 0.5;
+				}
+                60%{
+                	opacity: 0.8;
+                }
+                100%{
+                	opacity: 1;
+                }
+			}
+			a:hover{
+				opacity: 0.5;
+			}
+		</style>
+		
+	</head>
+	<body>
+		    <div>
+		    	<img src="img/renwu1.PNG" width=90% class="renwu"/>
+		    	<img src="img/IMG_0034.PNG"width=40% class="wzk"/>
+		    	<img src="img/IMG_0033.PNG"width=40% class="wz"/>
+		    </div>
+			<div class="botton">
+				<a href= "doucha.html" target="_self" title="茶百戏"><img src="img/IMG_0035.PNG"width="120px"height="50px"></a>
+			</div>
+	
+	</body>
+</html>
